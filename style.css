@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.formall{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+
+.form{
+    width: 70%;
+    height: 20%;
+    /* background-color: #333; */
+    padding: 10px   ;
+    display: flex;
+    flex-direction: column;
+}
+
+.orange{
+    background-color: orange;
+}
+.name, .phone, .email{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#idk{
+    resize: none;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+}
